@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.local
+
+# Data payloads (corpus can get large)
+data/downloads/
+data/markdown/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
